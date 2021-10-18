@@ -48,8 +48,8 @@ const LocalStorage = () => {
         <div className="item-list">
           {MOCKDATA.map((item) => (
             <ItemBrief
-              title={item.title}
-              mimetype={item.mimetype}
+              title={item.title} 
+              mimetype={item.mimetype}  // LOCAL STORAGE DATA HAS BEEN FETCHED FROM mockData.js (demo json)
               size={item.size}
             />
           ))}

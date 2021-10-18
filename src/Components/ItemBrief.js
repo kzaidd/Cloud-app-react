@@ -5,7 +5,7 @@ import archive_mid from "../assets/images/archive_mid.png";
 import music_mid from "../assets/images/music_mid.png";
 
 const ItemBrief = ({ title, mimetype, size }) => {
-  // LOCAL STORAGE DATA IS FETCH FROM mockData.js (demo json)
+  // LOCAL STORAGE DATA HAS BEEN FETCHED FROM mockData.js (demo json)
   return (
     <div className="item-brief">
       <div className="item-brief__image">
