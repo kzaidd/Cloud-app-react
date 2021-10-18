@@ -1,0 +1,50 @@
+h1 {
+  margin-right: 120px;
+  font-size: 34px;
+  color: #345095;
+}
+.search input {
+  background-color: rgb(233, 233, 233);
+  border-radius: 20px;
+  padding: 12px;
+  width: 320px;
+  border: none;
+  outline: none;
+}
+
+.search-bar::placeholder {
+  color: rgb(161, 161, 206);
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+  font-weight: 500;
+}
+
+.btn-category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-category button {
+  font-weight: bold;
+  color: rgb(139, 138, 138);
+  padding: 10px;
+}
+
+/* .item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+} */
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

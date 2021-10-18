@@ -1,0 +1,18 @@
+.main h1 {
+  margin-right: 120px;
+  font-size: 34px;
+  color: #345095;
+}
+
+.notification-item h2 {
+  color: #345095;
+}
+
+.notification-item p {
+  color: #717684;
+  font-weight: 600;
+}
+
+.notification-img img {
+  margin-top: 50px;
+}
