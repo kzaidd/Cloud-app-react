@@ -4,10 +4,10 @@ import Footer from "./Footer";
 import "./profile.css";
 
 const Profile = () => {
-  const btnStyle = {
-    background: "none",
-    border: "none",
-  };
+  // const btnStyle = {
+  //   background: "none",
+  //   border: "none",
+  // };
 
   return (
     <div className="container">

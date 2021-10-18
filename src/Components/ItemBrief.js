@@ -8,9 +8,9 @@ const ItemBrief = ({ title, mimetype, size }) => {
   return (
     <div className="item-brief">
       <div className="item-brief__image">
-        {mimetype === "jpg" && <img src={gallery_mid} />}
-        {mimetype === "mp3" && <img src={music_mid} />}
-        {mimetype === "zip" && <img src={archive_mid} />}
+        {mimetype === "jpg" && <img src={gallery_mid} alt=""/>}
+        {mimetype === "mp3" && <img src={music_mid} alt=""/>}
+        {mimetype === "zip" && <img src={archive_mid} alt=""/>}
       </div>
       <div className="item-brief__content">
         <div className="item-brief__title">

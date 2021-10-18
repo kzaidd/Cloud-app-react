@@ -1,7 +1,6 @@
 import React from "react";
-// import plus_icon from "../assets/images/plus_icon.png";
 import header from "../assets/images/header.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./LocalStorage.css";
 import videos from "../assets/images/videos.png";
 import music from "../assets/images/music.png";
